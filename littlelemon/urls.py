@@ -20,5 +20,5 @@ from django.urls import path, include
 # Changes to pull request
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('restaurant/', include('reservation.urls'))
+    path('restaurant/', include('restaurant.urls'))
 ]
