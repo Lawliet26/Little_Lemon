@@ -39,8 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'restaurant'
+    'restaurant',
+    'djoser'
 ]
+
+DJOSER = {
+    "USER_ID_FIELD":"username"
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
